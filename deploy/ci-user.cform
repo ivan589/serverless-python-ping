@@ -42,6 +42,13 @@
                        {
                            "Effect": "Allow",
                            "Action": [
+                               "apigateway:*"
+                           ],
+                           "Resource": "*"
+                       },
+                       {
+                           "Effect": "Allow",
+                           "Action": [
                                "s3:*"
                            ],
                            "Resource": [
